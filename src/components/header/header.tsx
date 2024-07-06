@@ -5,8 +5,8 @@ import { ModeToggle } from "../mode-toggle/mode-toggle";
 
 const header = () => {
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="px-4 lg:px-6 py-2.5 sticky bg-background">
+    <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background-2 backdrop-blur">
+      <div className="px-4 lg:px-6 py-2.5 sticky bg-background-2">
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xxl">
           <a href="/" className="flex items-center">
             <Image
