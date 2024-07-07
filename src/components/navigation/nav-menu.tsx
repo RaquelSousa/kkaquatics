@@ -13,16 +13,9 @@ const NavMenu = () => {
       <NavigationMenu>
         <NavigationMenuList className="gap-6">
           <NavigationMenuItem>
-            <Link href="/blog" legacyBehavior passHref>
+            <Link href="/services" legacyBehavior passHref>
               <NavigationMenuLink className="hover:text-primary">
-                Blog
-              </NavigationMenuLink>
-            </Link>
-          </NavigationMenuItem>
-          <NavigationMenuItem>
-            <Link href="/shop" legacyBehavior passHref>
-              <NavigationMenuLink className="hover:text-primary">
-                Shop
+                Services
               </NavigationMenuLink>
             </Link>
           </NavigationMenuItem>
@@ -37,6 +30,20 @@ const NavMenu = () => {
             <Link href="/about" legacyBehavior passHref>
               <NavigationMenuLink className="hover:text-primary">
                 About Us
+              </NavigationMenuLink>
+            </Link>
+          </NavigationMenuItem>
+          <NavigationMenuItem>
+            <Link href="/blog" legacyBehavior passHref>
+              <NavigationMenuLink className="hover:text-primary">
+                Blog
+              </NavigationMenuLink>
+            </Link>
+          </NavigationMenuItem>
+          <NavigationMenuItem>
+            <Link href="/shop" legacyBehavior passHref>
+              <NavigationMenuLink className="hover:text-primary">
+                Shop
               </NavigationMenuLink>
             </Link>
           </NavigationMenuItem>
