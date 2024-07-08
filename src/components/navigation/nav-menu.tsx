@@ -13,7 +13,7 @@ const NavMenu = () => {
       <NavigationMenu>
         <NavigationMenuList className="gap-6">
           <NavigationMenuItem>
-            <Link href="/services" legacyBehavior passHref>
+            <Link href="#services" legacyBehavior passHref>
               <NavigationMenuLink className="hover:text-primary">
                 Services
               </NavigationMenuLink>

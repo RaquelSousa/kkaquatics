@@ -4,6 +4,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider/theme-provider";
 import Header from "@/components/header/header";
 import Footer from "@/components/footer.tsx/footer";
+import SocialMediaBar from "@/components/socialMediaBar/social-media-bar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,6 +28,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Header />
+          <SocialMediaBar />
           {children}
           <Footer />
         </ThemeProvider>
