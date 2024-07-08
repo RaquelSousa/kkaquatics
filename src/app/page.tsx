@@ -1,11 +1,17 @@
+import About from "./(sections)/about/page";
+import Contact from "./(sections)/contact/page";
+import Jumbotron from "./(sections)/jumbotron/jumbotron";
 import Services from "./(sections)/services/page";
 
 export default function Home() {
   return (
     <div>
-      <main className="flex min-h-screen flex-col items-center justify-between p-24">
-        <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
+      <main>
+        <div>
+          <Jumbotron />
+          <About />
           <Services />
+          <Contact />
         </div>
       </main>
     </div>
