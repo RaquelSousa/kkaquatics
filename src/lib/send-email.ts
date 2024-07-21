@@ -1,15 +1,16 @@
-export function sendEmail(data: any) {
+export async function sendEmail(data: any) {
   const apiEndpoint = "/api/email";
 
-  fetch(apiEndpoint, {
+  return await fetch(apiEndpoint, {
     method: "POST",
     body: JSON.stringify(data),
   })
     .then((res) => res.json())
     .then((response) => {
-      console.log(response.message);
+      return true;
     })
     .catch((err) => {
       console.log(err);
+      return false;
     });
 }

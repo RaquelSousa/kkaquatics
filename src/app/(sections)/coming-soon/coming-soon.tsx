@@ -17,6 +17,16 @@ const ComingSoon = () => {
       <p className="text-muted-foreground text-xl md:text-2xl">
         We are working hard to bring you something amazing. Stay tuned!
       </p>
+      <p className="text-muted-foreground text-xl md:text-2xl mt-3">
+        Meanwhile, check our ebay shop below!
+      </p>
+      <a
+        className="text-primary"
+        target="_blank"
+        href="https://www.ebay.co.uk/usr/knkaquatics"
+      >
+        Go to Ebay
+      </a>
       {/* <p className="text-muted-foreground text-xl md:text-xl pt-10">
         Meanwhile, you can subscribe to our newsletter below
       </p>
