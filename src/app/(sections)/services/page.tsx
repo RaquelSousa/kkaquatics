@@ -46,7 +46,12 @@ const Services = () => {
                 <p className="text-gray-300">{service.description}</p>
                 <p className="text-gray-300">{service.content}</p>
               </div>
-              <div className="space-y-2 p-8 hover:cursor-pointer text-primary">{`Check our video on youtube ->`}</div>
+              <div className="space-y-2 p-8 hover:cursor-pointer text-primary">
+                <a
+                  href={service.link}
+                  target="_blank"
+                >{`Check our video on youtube ->`}</a>
+              </div>
             </div>
           </div>
         ))}
