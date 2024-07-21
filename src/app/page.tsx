@@ -9,9 +9,11 @@ export default function Home() {
       <main>
         <div>
           <Jumbotron />
-          <About />
-          <Services />
-          <Contact />
+          <div className="pl-10 pr-10">
+            <About />
+            <Services />
+            <Contact />
+          </div>
         </div>
       </main>
     </div>
