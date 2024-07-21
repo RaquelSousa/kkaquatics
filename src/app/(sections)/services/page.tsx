@@ -23,9 +23,9 @@ import { Button } from "@/components/ui/button";
 
 const Services = () => {
   return (
-    <div id="services" className="">
+    <div id="services" className="px-12">
       {/* <div id="services" className="grid grid-cols-4 gap-4 mt-28 px-12"> */}
-      <div className="mt-16 grid divide-x divide-y  divide-border overflow-hidden  rounded-3xl border text-gray-600 border-border sm:grid-cols-2 lg:grid-cols-4  lg:divide-y-0 xl:grid-cols-4">
+      <div className="mt-16 grid divide-x divide-y  divide-border overflow-hidden  rounded-3xl border text-gray-600 border-border sm:grid-cols-2 lg:grid-cols-  lg:divide-y-0 xl:grid-cols-4">
         {services.map((service: ServicesInterface) => (
           <div
             key={service.id}

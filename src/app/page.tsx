@@ -9,7 +9,7 @@ export default function Home() {
       <main>
         <div>
           <Jumbotron />
-          <div className="pl-10 pr-10">
+          <div className="">
             <About />
             <Services />
             <Contact />

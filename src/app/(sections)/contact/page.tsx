@@ -1,9 +1,23 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import React from "react";
+import { sendEmail } from "@/lib/send-email";
+import React, { FormEvent } from "react";
 
 const Contact = () => {
+  const submitEmail = (event: any) => {
+    event.preventDefault();
+    const elements = event.currentTarget.elements;
+    console.log("sending email...", elements);
+    sendEmail({
+      name: elements.name.value,
+      email: elements.email.value,
+      message: elements.message.value,
+      subject: elements.subject.value,
+    });
+  };
   return (
     <section className="pt-16" id="contact">
       <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
@@ -14,7 +28,19 @@ const Contact = () => {
           Got a technical issue? Want to send feedback about a beta feature?
           Need details about our Business plan? Let us know.
         </p>
-        <form action="#" className="space-y-8">
+        <form action="#" className="space-y-8" onSubmit={submitEmail}>
+          <div>
+            <label htmlFor="name" className="block mb-2 text-sm font-medium">
+              Your name
+            </label>
+            <Input
+              type="text"
+              id="name"
+              className="shadow-sm shadow-tertiary text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
+              placeholder="KNK Aquatics"
+              required
+            />
+          </div>
           <div>
             <label htmlFor="email" className="block mb-2 text-sm font-medium">
               Your email
