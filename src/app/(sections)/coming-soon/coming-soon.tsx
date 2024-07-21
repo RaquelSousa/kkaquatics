@@ -17,7 +17,7 @@ const ComingSoon = () => {
       <p className="text-muted-foreground text-xl md:text-2xl">
         We are working hard to bring you something amazing. Stay tuned!
       </p>
-      <p className="text-muted-foreground text-xl md:text-xl pt-10">
+      {/* <p className="text-muted-foreground text-xl md:text-xl pt-10">
         Meanwhile, you can subscribe to our newsletter below
       </p>
 
@@ -28,7 +28,7 @@ const ComingSoon = () => {
           className="shadow-sm shadow-tertiary text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
         />
         <Button type="submit">Subscribe</Button>
-      </div>
+      </div> */}
     </div>
   );
 };
