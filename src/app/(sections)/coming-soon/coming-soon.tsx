@@ -21,7 +21,7 @@ const ComingSoon = () => {
         Meanwhile, check our ebay shop below!
       </p>
       <a
-        className="text-primary"
+        className="text-primary text-xl md:text-2xl font-bold mt-3"
         target="_blank"
         href="https://www.ebay.co.uk/usr/knkaquatics"
       >
