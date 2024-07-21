@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div id="about" className="relative bg-background overflow-hidden mt-16">
       <div className="flex flex-col lg:flex-row">
-        <div className="sm:text-center lg:text-left flex-auto p-28">
+        <div className="sm:text-center lg:text-left flex-1 p-28">
           <h2 className="my-6 text-2xl tracking-tight font-extrabold text-tertiary sm:text-3xl md:text-4xl">
             About Us
           </h2>
@@ -21,7 +21,7 @@ const About = () => {
             fish, aquariums, equipment and DIY, we can help you!
           </p>
         </div>
-        <div className="flex-auto">
+        <div className="flex-1">
           <Image
             className="h-56 w-full object-cover object-top hidden lg:block md:h-96 lg:w-full lg:h-full"
             src="/pond.jpg"

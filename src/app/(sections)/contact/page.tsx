@@ -21,7 +21,7 @@ const Contact = () => {
   return (
     <section className="pt-16" id="contact">
       <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-        <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center">
+        <h2 className="mb-4 text-4xl tracking-tight text-tertiary  font-extrabold text-center">
           Contact Us
         </h2>
         <p className="mb-8 lg:mb-16 font-light text-center text-muted-foreground sm:text-xl">
@@ -36,7 +36,7 @@ const Contact = () => {
             <Input
               type="text"
               id="name"
-              className="shadow-sm shadow-tertiary text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
+              className="shadow-sm shadow-primary text-sm rounded-lg block w-full p-2.5"
               placeholder="KNK Aquatics"
               required
             />
@@ -48,7 +48,7 @@ const Contact = () => {
             <Input
               type="email"
               id="email"
-              className="shadow-sm shadow-tertiary text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
+              className="shadow-sm shadow-primary text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
               placeholder="name@knkaquatics.com"
               required
             />
@@ -63,7 +63,7 @@ const Contact = () => {
             <Input
               type="text"
               id="subject"
-              className="shadow-sm shadow-tertiary text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
+              className="shadow-sm shadow-primary text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
               placeholder="Short description of how we can help"
               required
             />
@@ -75,7 +75,7 @@ const Contact = () => {
             <Textarea
               id="message"
               rows={6}
-              className="shadow-sm shadow-tertiary text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
+              className="shadow-sm shadow-primary text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
               placeholder="How can we help, the more detail the better!"
             ></Textarea>
           </div>
