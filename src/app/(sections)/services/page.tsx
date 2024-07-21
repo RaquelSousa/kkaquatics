@@ -1,31 +1,11 @@
 import React from "react";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
 import Image from "next/image";
 import { ServicesInterface, services } from "@/app/constants/services.enum";
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel";
-
-import { ChevronRight } from "lucide-react";
-
-import { Button } from "@/components/ui/button";
 
 const Services = () => {
   return (
     <div id="services" className="px-12">
-      {/* <div id="services" className="grid grid-cols-4 gap-4 mt-28 px-12"> */}
-      <div className="mt-16 grid divide-x divide-y  divide-border overflow-hidden  rounded-3xl border text-gray-600 border-border sm:grid-cols-2 lg:grid-cols-  lg:divide-y-0 xl:grid-cols-4">
+      <div className="mt-16 grid divide-x divide-y divide-border overflow-hidden rounded-3xl border border-border sm:grid-cols-2 lg:grid-cols-  lg:divide-y-0 xl:grid-cols-4">
         {services.map((service: ServicesInterface) => (
           <div
             key={service.id}
@@ -41,11 +21,11 @@ const Services = () => {
                   height={500}
                 />
                 <div className="space-y-4 p-8">
-                  <h5 className="text-xl font-semibold text-tertiary text-foreground transition ">
+                  <h5 className="text-xl font-semibold text-tertiary transition ">
                     {service.title}
                   </h5>
-                  <p className="text-gray-300">{service.description}</p>
-                  <p className="text-gray-300">{service.content}</p>
+                  <p className="text-foreground">{service.description}</p>
+                  <p className="text-foreground">{service.content}</p>
                 </div>
               </div>
               <a className="" href={service.link} target="_blank">
