@@ -12,7 +12,7 @@ const Jumbotron = () => {
           We unlock your aquarium’s potential
         </h1>
         <p className="mb-8 text-lg font-normal text-primary-foreground lg:text-xl sm:px-16 lg:px-48">
-          Here at K&K Aquatics we focus on your needs, wether you want a custom
+          Here at K&K Aquatics we focus on your needs, whether you want a custom
           made aquarium for your home, a pond in your garden, or a beautiful
           aquascape in your workplace
         </p>
