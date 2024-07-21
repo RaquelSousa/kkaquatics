@@ -5,11 +5,10 @@ import { Input } from "@/components/ui/input";
 
 const ComingSoon = () => {
   return (
-    <div className="min-h-screen bg-background flex flex-col items-center justify-center relative px-4">
-      <div className="top-0 left-0 w-full h-full bg-cover bg-center opacity-30"></div>
+    <div className="h-[calc(100vh-262px)] bg-background flex flex-col items-center justify-center relative px-4">
       <Image
         alt="logo"
-        src="/kandkaquatics_logo.png"
+        src="/knkaquatics_upscaled.png"
         width={250}
         height={250}
       />
