@@ -26,7 +26,7 @@ const Contact = () => {
 
   return (
     <section className="pt-16" id="contact">
-      <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+      <div className="px-4 mx-auto max-w-screen-md">
         {isMessageSending ? (
           <div className="p-4 bg-tertiary/60 rounded text-center text-foreground">
             We are sending your message, please give us a moment...
@@ -37,7 +37,7 @@ const Contact = () => {
           </div>
         ) : (
           <>
-            <h2 className="mb-4 text-4xl tracking-tight text-tertiary  font-extrabold text-center">
+            <h2 className="mb-4 text-4xl tracking-tight text-tertiary font-extrabold text-center">
               Contact Us
             </h2>
             <p className="mb-8 lg:mb-16 font-light text-center text-muted-foreground sm:text-xl">

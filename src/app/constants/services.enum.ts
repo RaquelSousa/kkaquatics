@@ -41,7 +41,7 @@ export const services: Array<ServicesInterface> = [
     id: 3,
     title: "Aquascaping",
     description: "Aquascaping of new or existing aquariums",
-    background: "/aquascaping.png",
+    background: "/Living_room02.jpg",
     content:
       "If you have an existing aquarium, or don't need it built from scratch but need help setting it up, we can source and install all the aquaspacing needed, as well as the lifestock.",
     link: "https://www.youtube.com/watch?v=LmWrmYpFC1g",
