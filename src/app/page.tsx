@@ -19,3 +19,4 @@ export default function Home() {
     </div>
   );
 }
+// HiraethSentinel smoke test - safe to delete this PR
